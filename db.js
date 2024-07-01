@@ -25,6 +25,6 @@ db.on("disconnected", () => {
   console.log("MondoDB disconnected");
 });
 
-// Export the database connection
+// Export the database connection.
 
 module.exports = db;
